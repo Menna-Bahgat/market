@@ -1,0 +1,298 @@
+.numbers{
+    background-color: #ab3550;
+    color: white;
+    height: auto;
+    max-width: 100%;
+    padding: 25px 0px;
+    overflow: hidden;
+}
+.numbers h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.row{
+    text-align: center;
+    padding: 30px;
+}
+.bride{
+    padding: 25px 0px;
+}
+.bride img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.bride h2{
+    font-size: 30px;
+    width: 80%;
+    margin: 10px 0px;
+}
+.bride p{
+    color: gray;
+}
+#title{
+    margin-top: 60px;
+    text-align: left;
+    
+}
+.bride button{
+    background-color: #ab3550;
+    border: #ab3550 solid 3px;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.bride button:hover{
+    background-color: white;
+    color: #ab3550;
+    transition: 0.6s;
+}
+.ingredient img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+#content{
+    margin-top: 80px;
+    text-align: left;
+    line-height: 30px;
+}
+.ingredient button{
+    background-color: #ab3550;
+    border: #ab3550 solid 3px;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.ingredient button:hover{
+    background-color: white;
+    color: #ab3550;
+    transition: 0.6s;
+}
+.ingredient p{
+    color: gray;
+}
+.parelex{
+    background: url("../../1.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding: 30px 0px ;
+    text-align: center;
+}
+
+.parelex h2{
+    color: #ab3550;
+    font-size: 30px;
+    width: 100%;    
+}
+.parelex p{
+    color: gray;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 15px;
+
+}
+.parelex a{
+    text-decoration: none;
+    color: black;
+    
+}
+.parelex a:hover{
+    color: #ab3550;
+}
+.blogs{
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.blogs .row:first-child{
+    width: 100%;
+    
+}
+.blogs h2{
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.blogs p{
+    color: gray;
+}
+.blogs img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+#datatext{
+    text-align: left;
+    
+}
+#datatext h6{
+    font-size: 30px;
+    color: #ab3550;
+    padding: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    
+}
+#datatext button{
+    background-color: #ab3550;
+    border: #ab3550 solid 3px;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+#datatext button:hover{
+    background-color: white;
+    color: #ab3550;
+    transition: 0.6s;
+}
+.sliders{
+    background-color: #ab3550;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 25px 50px;
+}
+.sliders h2{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+
+ #cursole{
+    background-color: white;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    width: 90%;
+    height: auto;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+.sliders img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    
+}
+.carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    border-radius: 80%;
+    margin-right: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.2;
+    background-color: black;
+    
+}
+.question h3{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+
+}
+.question h4{
+    font-size: 20px;
+}
+.question p{
+    margin-bottom: 50px;
+}
+.question .row{
+    text-align: left;
+}
+.between {
+    background: url("../../sandwhich.jpg") center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 20vh;
+}
+.between h4{
+    color: white;
+    margin-top: 20px;
+}
+.between button{
+    background-color: #ab3550;
+    border: #ab3550 solid 3px;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.between button:hover{
+    background-color: white;
+    color: #ab3550;
+    transition: 0.6s;
+}
+.theend{
+    padding: 100px 0px;
+}
+.theend h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #43121D;
+}
+.theend input{
+    width: 40%;
+    margin-right: 40px;
+    height: 50px;
+    border: solid 3px #E5E5E5;
+}
+.theend button{
+    background-color: #ab3550;
+    border: #ab3550 solid 3px;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.theend button:hover{
+    background-color: white;
+    color: #ab3550;
+    transition: 0.6s;
+}
+.footer{
+    text-align: center;
+    background-color: #ab3550;
+    height: 30vh;
+}
+.footer .links a{
+    margin-left: 30px;
+    color: white;
+    line-height: 100px;
+}
+.footer p{
+    color: white;
+    margin-left: 30px;
+}
