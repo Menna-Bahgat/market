@@ -12,7 +12,7 @@ const Home =()=> {
   const blogitem = Data.map((item)=>{
     return(
       <div id='datatext' className='col-md-4'>
-        <img src={item.img} alt=""/> 
+        <img src={item.img} alt={item.title}/> 
         <h5>{item.title}</h5>
         <span>{item.time}</span>
         <h6>{item.price} <del style={{color:"#999999", marginLeft:"10px"}}>{item.deleted}</del></h6>
@@ -88,7 +88,7 @@ const Home =()=> {
             <div className='col-lg-12 col-md-12'>
               <h2>When a man`s Stomach is full it makes no<br></br> difference whether he is reach or poor </h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis reprehenderit temporibus,<br></br> officiis, iste totam libero enim, accusamus expedita quis autem perferendis.</p>
-              <a href='#'>Watch Our Story</a>
+              <a href='/'>Watch Our Story</a>
             </div>
           </div>
         </div>
@@ -200,10 +200,10 @@ const Home =()=> {
      <section className='footer'>
         <div className='container'>
           <div className='links'>
-            <a href='#'>Register</a>
-            <a href='#'>Forum</a>
-            <a href='#'>Affiliate</a>
-            <a href='#'>FAQ</a>
+            <a href='/'>Register</a>
+            <a href='/'>Forum</a>
+            <a href='/'>Affiliate</a>
+            <a href='/'>FAQ</a>
           </div>
           <p>© 2021. Foodera. All rights reserved.</p>          
         </div>
