@@ -12,7 +12,7 @@ const Home =()=> {
   const blogitem = Data.map((item)=>{
     return(
       <div id='datatext' className='col-md-4'>
-        <img src={item.img}/> 
+        <img src={item.img} alt=""/> 
         <h5>{item.title}</h5>
         <span>{item.time}</span>
         <h6>{item.price} <del style={{color:"#999999", marginLeft:"10px"}}>{item.deleted}</del></h6>
@@ -51,7 +51,7 @@ const Home =()=> {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
-              <img src={salad} title='salad'/>
+              <img src={salad} title='salad' alt=""/>
             </div>
             <div id='title' className='col-md-6'>
               <h2>We pride Ourselves On making real food from the best ingredient </h2>
@@ -76,7 +76,7 @@ const Home =()=> {
               <button>Learn More</button>
             </div>
             <div className='col-md-6'>
-              <img src={pizza} title='pizza'/>
+              <img src={pizza} title='pizza' alt=""/>
             </div>
           </div>
         </div>
@@ -116,17 +116,17 @@ const Home =()=> {
             <div className='col-lg-12 col-md-12'>
               <Carousel>
                 <Carousel.Item>
-                 <img src={item1} />
+                 <img src={item1} alt=""/>
                   <h4 style={{color:"black", marginTop:"50px", padding:"0px 10px"}}>First slide labelLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum </h4>
                   <p style={{color:"#ab3550" , marginTop:"0px", padding:"20px 0px"}}>Simba Dave - Web Design</p>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={item2} />
+                    <img src={item2} alt="" />
                     <h4 style={{color:"black", marginTop:"50px", padding:"0px 10px"}}>Second slide label dolor sit amet consectetur adipisicing elit. Nostrum eligendi </h4>
                     <p style={{color:"#ab3550", marginTop:"0px", padding:"20px 0px"}}>jack - UX Designer</p>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={item1} />
+                  <img src={item1} alt="" />
                   <h4 style={{color:"black" , marginTop:"50px", padding:"0px 10px"}}>First slide labelLorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum </h4>
                   <p style={{color:"#ab3550" , marginTop:"0px", padding:"20px 0px"}}>menna bahgat - Front end</p>
                 </Carousel.Item>
