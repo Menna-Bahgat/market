@@ -12,7 +12,7 @@ const Navs=()=>{
     return(
         <Navbar expand="lg  fixed-top" >
           <Container>
-             <Navbar.Brand href="#home"><img src={logooo} title='logooo'/></Navbar.Brand>
+             <Navbar.Brand href="#home"><img src={logooo} title='logooo' alt=""/></Navbar.Brand>
              <Navbar.Toggle aria-controls="basic-navbar-nav" id='allbuttons' />
              <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
