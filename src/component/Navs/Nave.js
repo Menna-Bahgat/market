@@ -10,7 +10,7 @@ import logooo from '../../logooo.png'
 
 const Navs=()=>{
     return(
-        <Navbar expand="lg  fixed-top" >
+        <Navbar expand="lg" fixed="top" >
           <Container>
              <Navbar.Brand href="#home"><img src={logooo} title='logooo' alt="logoo"/></Navbar.Brand>
              <Navbar.Toggle aria-controls="basic-navbar-nav" id='allbuttons' />
@@ -21,7 +21,7 @@ const Navs=()=>{
                       <Nav.Link href="#home">Explore Foods</Nav.Link>
                       <Nav.Link href="#link">Review</Nav.Link>
                       <Nav.Link href="#home">FAQ</Nav.Link>
-                      <Nav.Link id='lastnav' >01056843866</Nav.Link>
+                      <Nav.Item id="lastnav" className="nav-link"> 01056843866 </Nav.Item>
                    </Nav>
                </Navbar.Collapse>
             </Container>
