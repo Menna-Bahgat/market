@@ -128,18 +128,18 @@
     max-width: 100%;
     border-radius: 10px;
 }
-#datatext{
+.datatext{
     text-align: left;
     
 }
-#datatext h6{
+.datatext h6{
     font-size: 30px;
     color: #ab3550;
     padding: 20px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.1);
     
 }
-#datatext button{
+.datatext button{
     background-color: #ab3550;
     border: #ab3550 solid 3px;
     color: white;
@@ -149,7 +149,7 @@
     margin-bottom: 20px;
     transition: 0.6s;
 }
-#datatext button:hover{
+.datatext button:hover{
     background-color: white;
     color: #ab3550;
     transition: 0.6s;

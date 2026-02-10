@@ -11,7 +11,7 @@ import item2 from'../../item2.jpg'
 const Home =()=> {
   const blogitem = Data.map((item,index)=>{
     return(
-      <div key={index} id='datatext' className='col-md-4'>
+      <div key={index}  className='col-md-4 datatext'>
         <img src={item.img} alt={item.title}/> 
         <h5>{item.title}</h5>
         <span>{item.time}</span>
